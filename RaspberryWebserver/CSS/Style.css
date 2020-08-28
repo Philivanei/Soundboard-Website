@@ -1,0 +1,21 @@
+/* sample code for now */
+
+body {color: black;
+    background-color: white;
+    margin-left: 25px}
+
+h1 {color: red;
+    background-color: black;}
+
+img {
+  float: right;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40%; 
+  height:auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
