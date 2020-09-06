@@ -1,20 +1,20 @@
 function playSoundOne(){
-    var audio = new Audio('../src/Mouse-Click.mp3');
+    var audio = new Audio('../src/sample_1.m4a');
     audio.play(); 
 }
 
 function playSoundTwo(){
-    var audio = new Audio('../src/Mouse-Click.mp3');
+    var audio = new Audio('../src/sample_2.m4a');
     audio.play();
 }
 
 function playSoundThree(){
-    var audio = new Audio('../src/Mouse-Click.mp3');
+    var audio = new Audio('../src/sample_3.m4a');
     audio.play();
 }
 
 function playSoundFour(){
-    var audio = new Audio('../src/Mouse-Click.mp3');
+    var audio = new Audio('../src/sample_4.m4a');
     audio.play();
     
 }
