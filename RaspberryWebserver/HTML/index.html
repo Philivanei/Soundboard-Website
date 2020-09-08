@@ -5,13 +5,20 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
         <link rel="stylesheet" href="../CSS/Style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="../JavaScript/PlaySound.js"></script>
     </head>
 
     <body>
         <h1>Soundboard</h1>
         <br>
-        <button id="soundOne">TEST</button>
+        <button class="button" onclick="playSoundSample('../src/sample_1.m4a')">Snap</button>
+        <button class="button" onclick="playSoundSample('../src/sample_2.m4a')">Bubble</button>
+        <button class="button" onclick="playSoundSample('../src/sample_3.m4a')">Tongue click</button>
+        <button class="button" onclick="playSoundSample('../src/sample_4.m4a')">Knock</button>
+
+        <!-- Add more buttons here. Don't forget to set the right path to a sound sample -->
+        
     </body>
 
 </html>

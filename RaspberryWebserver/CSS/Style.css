@@ -1,21 +1,43 @@
-/* sample code for now */
-
-body {color: black;
-    background-color: white;
-    margin-left: 25px}
-
-h1 {color: red;
-    background-color: black;}
-
-img {
-  float: right;
-  margin-top: 5px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 40%; 
-  height:auto;
+body {
+  color: black;
+  background-color: rgba(0, 128, 0, 0.5);
+  margin-left: 25px
 }
 
-@media only screen and (max-width: 768px) {
+h1 {
+  color: whitesmoke;
+  background-color: rgba(0, 128, 0, 1);
+  font-family: 'Trocchi', serif;
+  font-size: 50px;
+  font-weight: normal;
+  line-Height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+}
 
+
+.button {
+  display: inline-block;
+  padding: 20px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ce9e1b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 4px #999;
+  margin: 8px;
+}
+
+.button:hover {
+  background-color: #d32e28ce;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
 }
