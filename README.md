@@ -8,7 +8,7 @@ In this repository you'll find a website that can be hosted with a Raspberry Pi.
 
 ## How to setup apache webserver
 
-1. First you need a Raspberry Pi (operating system: [Raspberry Pi OS](#https://www.raspberrypi.org/downloads/)) to host your website
+1. First you need a Raspberry Pi (operating system: [Raspberry Pi OS](https://www.raspberrypi.org/downloads/)) to host your website
 2. Then open a terminal and type in the following commands:
 3. sudo apt-get install apache2
    sudo groupadd www-data
